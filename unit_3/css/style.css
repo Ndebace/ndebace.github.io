@@ -1,0 +1,47 @@
+body {
+	background-color: white;
+	font-family: Arial;
+}
+
+
+.hero {
+	color: white;
+	text-decoration: bold;
+	background: url("../images/KelliewithFountain.jpg");
+  	background-size: cover;
+  	height: 600px;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+}
+
+
+}
+h1, p {
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+.text-wrapper {
+	color: white;
+	padding-top: 25px;
+	text-align: center
+
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+p#slogan { 
+	text-transform: uppercase; 
+} 
+
