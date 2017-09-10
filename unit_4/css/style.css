@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Philosopher');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 
 
 body {
 	background-color: white;
-	font-family: 'Philosopher', sans-serif;;
+	font-family: 'Didact Gothic', sans-serif;
+
 }
 
 
 .hero {
 	color: white;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Didact Gothic', sans-serif;
 	text-decoration: bold;
 	background: url("../images/KelliewithFountain.jpg");
   	background-size: cover;
@@ -21,7 +22,7 @@ body {
 
 }
 h1, p {
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Didact Gothic', sans-serif;
 	color: black;
 }
 
@@ -31,7 +32,7 @@ a {
 
 .text-wrapper {
 	color: white;
-	padding-top: 20px;
+	padding-top: 2px;
 	text-align: center
 
 }
@@ -40,4 +41,19 @@ li {
 	list-style: none;
 	display: inline-block;
 	margin: 0 10px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+#slogan {
+	font-family: 'Didact Gothic', sans-serif;
+	text-decoration: bold;
+	font-size: 30px;
+}
+
+button {
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 20px;
 }
