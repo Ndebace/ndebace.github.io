@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+
+header {
+	border: 1px black solid;
+}
+
+nav {
+	border: 1px black solid;
+
+}
+
+#one {
+	border: 1px black solid;
+	padding: 4px;
+}
+
+#two {
+	border: 1px black solid;
+	padding: 2%;
+}
+
+footer{
+	border: 1px black solid;
+	padding: 2%;
+}
+
+body {
+	background-color: white;
+	font-family: 'Didact Gothic', sans-serif;
+	border: 1px black solid;
+	padding: 2%;
+	font-size: 16px;
+
+}
+
+.hero {
+	color: white;
+	font-family: 'Didact Gothic', sans-serif;
+	text-decoration: bold;
+	background: url("../images/KelliewithFountain.jpg");
+  	background-size: cover;
+  	height: 600px;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+}
+
+
+}
+h1, p {
+	font-family: 'Didact Gothic', sans-serif;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+.text-wrapper {
+	color: white;
+	padding-top: 2px;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+#slogan {
+	font-family: 'Didact Gothic', sans-serif;
+	text-decoration: bold;
+	font-size: 2em;
+}
+
+button {
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 1.5em;
+}
+
+#one {
+	height: 20%;
+	padding: 2%;
+
+}
+
+#two {
+	clear: both;
+}
+
+.kellie {
+	float: left;
+	padding: 2%;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.two-columns {
+	width: 45%
+	display: inline-block;
+	padding: 3%;
+}
+
+.three-columns {
+	width: 30%;
+	display: inline-block;
+}
+
+#group {
+	width: 30%;
+	padding: 2%;
+}
+
+#studio {
+	width: 30%;
+	padding: 2%;
+}
+
+#private {
+	width: 30%;
+	padding: 2%;
+}
+
+@media only screen and (max-width: 720px) {
+
+	li {
+		text-align: center;
+		display: block;
+		padding: 5px;
+		font-size: 1.5em;
+	}
+
+	.three-columns {
+		width: 100%;
+		display: block;
+		padding: 4px;
+	}
+
+	.kellie {
+		size: 70%;
+	}
+
+	@media only screen and (max-width: 450px) {
+
+		.kellie {
+			size: 35%;
+			width: 35%;
+		}
+
+		footer {
+			text-align: center;
+		}
+}
+
