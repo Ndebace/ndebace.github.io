@@ -3,18 +3,16 @@
 
 header {
 	border: 1px black solid;
-	padding: 2%;
 }
 
 nav {
 	border: 1px black solid;
-	padding: 1%;
 
 }
 
 #one {
 	border: 1px black solid;
-	padding: 4px;
+	padding: 2%;
 }
 
 #two {
@@ -39,11 +37,11 @@ body {
 .hero {
 	color: white;
 	font-family: 'Didact Gothic', sans-serif;
-	text-decoration: bold;
+	font-weight: bold;
 	background: url("../images/KelliewithFountain.jpg");
   	background-size: cover;
   	height: 600px;
-  	background-position: center center;
+  	background-position: center -262px;
   	background-repeat: no-repeat;
 }
 
@@ -110,9 +108,7 @@ button {
 }
 
 .two-columns {
-	width: 45%
-	display: inline-block;
-	padding: 3%;
+	vertical-align: top;
 }
 
 .three-columns {
@@ -135,12 +131,52 @@ button {
 	padding: 2%;
 }
 
+
+.img-container {
+  position:relative;
+  margin:auto;
+}
+
+.hover-text{
+  display: none;  
+  height:64%;
+  width:62%;
+  background-color:rgba(0,0,0,0.5);
+  position:absolute;
+  top:0;
+  left:0;
+  font-family:sans-serif;
+  text-align:center;
+  color:white;
+  font-size:40px;
+  padding:22% 0 0;
+  margin:0;
+}
+
+.img-container:hover > .hover-text{
+  display:block;
+
+}
+
+.hover-img{
+  display: block;
+  width: 62%;
+}
+
+@media only screen and (max-width: 1400px) {
+	.hero {
+		background-position: center center;
+	}
+}
+
 @media only screen and (max-width: 720px) {
 
+	ul {
+		padding: 0;
+	}
 	li {
 		text-align: center;
 		display: block;
-		padding: 5px;
 		font-size: 1.5em;
 	}
 
@@ -150,16 +186,29 @@ button {
 		padding: 4px;
 	}
 
-	.kellie {
-		size: 70%;
+
+	.two-columns {
+
+		padding: 0;
 	}
 
-	@media only screen and (max-width: 450px) {
+}
+@media only screen and (max-width: 590px) {
+	.kellie {
+		width: 70%;
+		padding: 0;
+		float: none;
+	}
+}
+@media only screen and (max-width: 450px) {
+	
+	.two-columns {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
 
-		.kellie {
-			size: 35%;
-			width: 35%;
-		}
+
 
 		footer {
 			text-align: center;
