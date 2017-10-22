@@ -52,6 +52,10 @@ h1, p {
 	color: black;
 }
 
+h1 {
+	margin-bottom: 8px;
+}
+
 a {
 	text-decoration: none;
 }
@@ -76,6 +80,8 @@ h1 {
 	font-family: 'Didact Gothic', sans-serif;
 	text-decoration: bold;
 	font-size: 2em;
+	margin: 4px;
+	margin-bottom: 20px;
 }
 
 button {
